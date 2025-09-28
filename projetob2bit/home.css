@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+}
+#box{
+    margin: auto;
+    margin-top: 100px;
+    height: 520px;
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px rgb(194, 194, 194);
+}
+
+.profile{
+    font-family: inter;
+    padding-top: 50px;
+}
+
+#avatar {
+    width: 150px; 
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+h3{
+    font-family: inter;
+    font-size: 20px;
+}
+
+.nome, .email{
+    font-family: inter;
+    padding-top: -2px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 25px;
+    width: 380px;
+    margin-left: 35px;
+    background-color: rgb(241, 241, 241);
+}
+
+#logout{
+    color: white;
+    font-family: inter;
+    margin-top: 25px;
+    border-radius: 20px;
+    width: 150px;
+    height: 28px;
+    border: gray;
+    background-color: #02274c;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover{
+    transform: scale(1.2);
+}

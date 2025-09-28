@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login B2Bit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div id="box">
+            <h3 class="email">E-mail</h3>
+            <form id="formLogin">
+                <input id="emailinp" type="text" placeholder="@gmail.com" required>
+            <h3 class="senha">Senha</h3>
+                <input id="senhainp" type="password" placeholder="*********" required>
+            <button type="submit">
+                Sing In
+            </button>
+            </form>
+            <p id="errorMessage" style="color:red"></p>
+    </div>
+</body>
+</html>
